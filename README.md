@@ -60,4 +60,4 @@ Attempt to have a loose coupling between payment_note & transaction, both via co
 
 ### 📨 Submitting
 Upload your project to your Git & include the url of the repository in your application. Remember that the repository must be public!
-Submit questions together with your job application.
+Submit the questions together with your job application.

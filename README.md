@@ -3,7 +3,9 @@
 
 ### 🚨 Requirements
 DATABASE : **MySQL Wire Protocol compatible**
+
 CODE : **TypeScript (Node.js)**
+
 FRAMEWORK : **[Express](https://www.npmjs.com/package/express)**
 
 ### ℹ️ Notes

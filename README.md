@@ -41,7 +41,7 @@ Attempt to have a loose coupling between payment_note & transaction, both via co
         - (The API user does not need to wait for transactions to be marked - but only about wether the payment_note creation was successful or not)
 - Update affected transactions
     - *Requirements:*
-        - update affected transactions with the payment_note_uuid & change transaction_status_code to paid
+        - update affected transactions with the payment_note_uuid & change transaction_status_code to PAID
         - only transactions that has a status code of "pending" and where the transaction_datetime is within the from/to period of the payment-note are eligible to be updated
 - Complete the payment_note
     - Once all transactions has been marked, the sum of the transaction_value & count of affected transactions should be updated to the regarding payment_note entity
